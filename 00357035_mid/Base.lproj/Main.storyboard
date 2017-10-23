@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4dg-ep-eMb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--史實-->
+        <scene sceneID="i9J-Z4-Gp9">
+            <objects>
+                <tableViewController title="史實" hidesBottomBarWhenPushed="YES" id="oct-M6-8gi" customClass="MyTableViewController" customModule="_0357035_mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dAC-wB-FQx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="oRA-JA-TEf">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="gBe-sA-IDA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gBe-sA-IDA" id="iU6-MC-BlQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ruler" translatesAutoresizingMaskIntoConstraints="NO" id="Jew-1t-fAs">
+                                                    <rect key="frame" x="8" y="0.0" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="天草四郎時貞" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="InC-lE-0P5">
+                                                    <rect key="frame" x="86" y="19" width="150" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.63415877300000001" blue="0.65428369289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="wYl-LH-E1v" kind="show" id="8Ff-uC-ps6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="m8d-QP-8ib">
+                                        <rect key="frame" x="0.0" y="70" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m8d-QP-8ib" id="5q7-ri-FeT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caster" translatesAutoresizingMaskIntoConstraints="NO" id="Mn3-Qt-ymn">
+                                                    <rect key="frame" x="8" y="-1" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="威廉・莎士比亞" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SG7-yB-9jj">
+                                                    <rect key="frame" x="86" y="19" width="175" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.38121268110000001" green="0.57185913710000003" blue="0.3793617842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="no3-eR-1jY" kind="show" id="gGa-bc-mAf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="LtO-oh-1RU">
+                                        <rect key="frame" x="0.0" y="140" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LtO-oh-1RU" id="pR6-dU-Axe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ruler" translatesAutoresizingMaskIntoConstraints="NO" id="Oqo-mJ-Dqv">
+                                                    <rect key="frame" x="8" y="0.0" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="聖女貞德" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O7K-GF-kzd">
+                                                    <rect key="frame" x="86" y="20" width="102" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.68280032049999995" green="0.75123701870000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="9tf-Uf-Tuz" kind="show" id="Xkh-YN-4XY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="79D-6t-Jsw">
+                                        <rect key="frame" x="0.0" y="210" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="79D-6t-Jsw" id="sm4-n8-Ylu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assassin" translatesAutoresizingMaskIntoConstraints="NO" id="Yf7-W5-xfp">
+                                                    <rect key="frame" x="8" y="-1" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="夏爾・亨利・桑松" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gue-xu-Q73">
+                                                    <rect key="frame" x="86" y="19" width="199" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="dnz-FQ-4SJ" kind="show" id="wOr-Ke-WGC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="oct-M6-8gi" id="F3F-IU-q72"/>
+                            <outlet property="delegate" destination="oct-M6-8gi" id="uaa-9b-Mrx"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="史實" id="fl5-zE-Tsu"/>
+                    <navigationItem key="navigationItem" title="史實" id="rba-GU-lyl"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JU6-PA-kNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117.5999999999999" y="-325.18740629685158"/>
+        </scene>
+        <!--英靈-->
+        <scene sceneID="Dd1-KZ-NSZ">
+            <objects>
+                <tabBarController id="U31-sQ-DXJ" customClass="MyTabBarController" customModule="_0357035_mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="英靈" id="Fic-gS-bXh"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WeE-gF-Y1d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oct-M6-8gi" kind="relationship" relationship="viewControllers" id="dPe-dg-O2m"/>
+                        <segue destination="Y4e-6n-mYi" kind="relationship" relationship="viewControllers" id="0I8-FZ-fes"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGu-ph-b1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="72"/>
+        </scene>
+        <!--FATE-->
+        <scene sceneID="Jwy-3f-Abz">
+            <objects>
+                <navigationController title="FATE" id="4dg-ep-eMb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="20I-Rz-fsk">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="U31-sQ-DXJ" kind="relationship" relationship="rootViewController" id="2oQ-Ui-2XX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Np-9J-6Tk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="72"/>
+        </scene>
+        <!--傳說/神話-->
+        <scene sceneID="Aze-r3-peW">
+            <objects>
+                <tableViewController title="傳說/神話" hidesBottomBarWhenPushed="YES" id="Y4e-6n-mYi" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8qK-20-nwp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="NPu-Hj-oHr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="Idc-5Q-ZFd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Idc-5Q-ZFd" id="dht-5u-5gY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="berserker" translatesAutoresizingMaskIntoConstraints="NO" id="r4I-cv-Vg3">
+                                                    <rect key="frame" x="8" y="-1" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="海克力士" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8hJ-vp-hUf">
+                                                    <rect key="frame" x="86" y="8" width="170" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8I0-mW-1b9" kind="show" id="swG-Cu-Kfc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="YV5-xf-3xz">
+                                        <rect key="frame" x="0.0" y="70" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YV5-xf-3xz" id="Ajc-i4-4KB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lancer" translatesAutoresizingMaskIntoConstraints="NO" id="Aq8-D9-Hwk">
+                                                    <rect key="frame" x="8" y="0.0" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="庫胡林" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RPz-jJ-hyG">
+                                                    <rect key="frame" x="86" y="17" width="97" height="36"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="U4f-Ji-gHJ" kind="show" id="MX0-Xh-qDu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="nxg-Pz-YNK">
+                                        <rect key="frame" x="0.0" y="140" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nxg-Pz-YNK" id="0Xf-Ur-a4V">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="berserker" translatesAutoresizingMaskIntoConstraints="NO" id="zWx-UM-Z78">
+                                                    <rect key="frame" x="8" y="0.0" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="清姬" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bkS-I7-xrX">
+                                                    <rect key="frame" x="86" y="18" width="97" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.45356557730000002" green="1" blue="0.82438304350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="UEM-Dg-jJC" kind="show" id="A3h-3D-u45"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="SoF-kT-7P9">
+                                        <rect key="frame" x="0.0" y="210" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SoF-kT-7P9" id="rNc-j2-6Qe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="archer" translatesAutoresizingMaskIntoConstraints="NO" id="91t-KX-GfE">
+                                                    <rect key="frame" x="8" y="0.0" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="吉爾伽美什" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ab7-4X-U7T">
+                                                    <rect key="frame" x="86" y="20" width="126" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="aQf-Tm-Vf9" kind="show" id="T2J-uC-GGC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Y4e-6n-mYi" id="rse-0B-Mhs"/>
+                            <outlet property="delegate" destination="Y4e-6n-mYi" id="rCE-1i-v7W"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="傳說/神話" id="uh6-XN-CAc"/>
+                    <navigationItem key="navigationItem" title="傳說/神話" id="kDD-dT-cxp">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="NFm-cz-p4i"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NQn-vD-dne" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117.5999999999999" y="375.56221889055473"/>
+        </scene>
+        <!--海克力士-->
+        <scene sceneID="MFb-7A-Omr">
+            <objects>
+                <viewController title="海克力士" id="8I0-mW-1b9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MWr-79-gN1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B叔" translatesAutoresizingMaskIntoConstraints="NO" id="AkJ-zR-ezz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-kH-Jvu">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">出典：『希臘神話』
+ 海克力士一生充滿傳奇，最著名的無非是他的十二項英雄偉績。古希臘時代居住在亞歷山大港的詩人們用充滿詩意和悲劇氣氛的文字記錄了他的一生。他的形象起源是近東地區的鬥獅者，在伊特魯里亞文化中可以找到和他對應的人物赫丘勒（Hercle），兩位主神丁尼亞（Tinia，對應希臘神話的宙斯）和烏尼的兒子。
+赫拉克勒斯是古希臘時代克托尼俄斯的英雄中最偉大，但不同於其他的英雄，他同為英雄和神（即他死後成為神的事實），品達稱他為理論上的英雄，因此當古希臘祭祀他的時候會先向地府獻上美酒（以告慰他作為人類英雄之靈），然後再向聖壇獻上美酒（以祭祀他的神靈），當然他很多時候也被稱為「半神」。瓦爾特·伯科特已經證明赫拉克勒斯故事的核心內容起源於新石器時代的捕獵文化以及薩滿教傳入平民階層時產生的傳說。</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="lBh-nT-lMt"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EW6-am-6y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="1173"/>
+        </scene>
+        <!--庫胡林-->
+        <scene sceneID="pg1-m3-1yT">
+            <objects>
+                <viewController title="庫胡林" id="U4f-Ji-gHJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wq2-pM-Qm5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="庫胡林" translatesAutoresizingMaskIntoConstraints="NO" id="P7m-Nb-mmM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7KE-CR-g9O">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">出典：『凱爾特神話』  原名瑟坦特，七歲的時候康納爾王受邀到鐵匠庫林（Culann）家做客，他也一同前往，在去宴會路上，貪玩的瑟坦特不顧康納爾王的喚聲，他忙著和其他孩子比賽玩球，所以回答說等玩完了就過去。 然而康納爾王卻忘記告訴鐵匠庫林這件事，結果庫林在自己家的門前放出了看家犬。
+對此毫不知情的瑟坦特一個人來到鐵匠家，結果被狗襲擊，但他卻反而徒手把狗給勒死了。這隻狗因為兇猛而出名，是鐵匠庫蘭自豪的愛犬。 看到鐵匠失去愛犬痛心的樣子瑟坦特深感內疚，所以他向庫林承諾，在鐵匠育成下一隻看家犬之前，他將守護這間房子。
+在國王的祭師凱斯巴(Cathba)的宣布下，他的名字成為庫胡林(Cú Chulainn)，其意為庫林的猛犬，立誓一生不得吃狗肉</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="60b-Oe-uE1"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uII-9X-WnI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="1173"/>
+        </scene>
+        <!--吉爾伽美什-->
+        <scene sceneID="gF0-tJ-Vqr">
+            <objects>
+                <viewController title="吉爾伽美什" id="aQf-Tm-Vf9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hZX-Ta-vj1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="giru" translatesAutoresizingMaskIntoConstraints="NO" id="5W3-lz-GVm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-Lo-hy7">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">出典：『吉爾伽美什史詩』
+ 吉爾伽美什
+根據蘇美爾王表，吉爾伽美什是盧加爾班達之子、烏魯克第五任國王（早王朝第二，烏魯克第一王朝），統治期大約在公元前2600年。他是著名古代文學《吉爾伽美什史詩》的主角，被寫成是女神寧松之子。在美索不達米亞神話中，吉爾伽美什是擁有超人力量的半神（三分之二是神，三分之一是人），建造城牆保護人民免受外來攻擊。根據「Tummal刻文」，吉爾伽美什及其子Urlugal，重建女神寧利爾的聖殿，聖殿設於Tummal，該地是尼普爾城的聖域。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uA9-ZR-YO3"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VpY-Be-GGo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2798" y="1173"/>
+        </scene>
+        <!--清姬-->
+        <scene sceneID="D3I-b5-Rpw">
+            <objects>
+                <viewController title="清姬" id="UEM-Dg-jJC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RAz-ox-48g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="清姬" translatesAutoresizingMaskIntoConstraints="NO" id="AuW-LM-fGb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-1C-CWR">
+                                <rect key="frame" x="0.0" y="189" width="375" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">出典：『清姬傳說』
+
+西元928年
+
+奧州(陸奧國)有一位長得很帥的僧人名叫安珍。  
+安珍某日從奧州要前往熊野參拜，途中經過了紀伊國(現今的和歌山縣田邊市)一代，因天色已晚，借宿在附近的貴族-真砂的庄司(大概是類似村長縣長之類的職稱)家裡。
+
+這位貴族有一位女兒，名為清姬，雖然才12歲的年紀，但是已經出落得亭亭玉立，從小生長在貴族世家的清姬每天都可以看到庄司在吃牛排...
+
+這位貴族有一位女兒，名為清姬，雖然才12歲的年紀，但是已經出落得亭亭玉立，從小生長在貴族世家的清姬一言一行都深具大家閨秀的風範。
+安珍見到年幼可愛的清姬，忍不住稍微逗了她一下，沒想到清姬信以為真，再加上本來清姬對於英俊的安珍就頗有好感，於是清姬就這樣愛上了安珍。
+
+當晚，安珍在房內休息時，清姬來到安珍的房間，表示想要侍寢。
+安珍當時只不過隨口開個玩笑，沒有想到清姬竟然如此大膽前來夜襲，錯愕的安珍一時不知道該如何反應。
+在清姬的催促下，回過神來的安珍當然是一口拒絕，而且安珍身為僧侶，還在前往參拜的路上，更加不可能答應。
+沒想到清姬並不死心，一再逼迫安珍，安珍無奈之下只好騙她說自己還有使命在身，現在逼他也沒用，在參拜完成後，回來的路上必定會再來相見。
+單純的清姬不疑有他，在得到了安珍的保證後便心滿意足的放安珍離去
+
+
+於是，清姬獨自守著與安珍的約定，等待安珍前來相會。
+日復一日，經過了數個月後，算一算早已該到了安珍折返的日子，望穿秋水的清姬每天都梳妝打扮後在門口等待，為了以最美麗的狀態迎接安珍。
+
+一日...兩日...三日...
+約定的日子早已過去，清姬每天都在家門口眺望著過路的行人。
+
+七日..八日...九日....
+遲遲等不到安珍的清姬，開始向路過的旅人們打聽是否有看到形似安珍的人的消息。
+穿著貴族服飾的清姬其實相當不耐久站，長時間穿著木屐的腳更是傳來陣陣刺痛，但清姬為了打聽心愛的人的消息，依然堅持每天到門口盼望。
+
+某一日，終於有一位旅人說道，他曾經在某處看到形似安珍的僧人，而那個地方，早就超過了清姬家所在的位置，想必安珍是刻意繞路避開了清姬吧。
+失望的清姬呆呆地想著當晚與安珍立下的約定。
+
+(喜歡著、愛著、被背叛了...)
+
+發覺被騙的清姬越想越傷心。
+
+(好傷心、好傷心、好傷心好傷心好傷心)
+
+於是清姬決心向安珍問個清楚。
+清姬就這麼穿著精美繁重的貴族服飾跑出了家裡。
+在路上狂奔的清姬，華美的飾品掉落了，精緻的頭髮散亂了，不利於奔跑的木屐在途中也壞掉了，但是不顧一切的清姬就這麼赤著腳奔往安珍所在的方向。
+跑著跑著，超過了疲倦之後是更多的痛苦，身體像火燒一樣，生理的痛苦也在逐漸地侵蝕著清姬的精神。
+失望混合著傷心，再加上身體的痛苦，讓清姬逐漸生出了怨恨之心。
+
+(好恨阿、好恨阿、好恨阿、好恨阿好恨阿好恨阿恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨恨)
+
+終於，清姬在上野附近追上了安珍，正當她叫住安珍想要問個清楚時，沒想到安珍卻只拋下一句
+
+「你認錯人了」
+
+已經被騙過一次的清姬當然不會再度受騙，安珍那俊美的容貌再加上僧侶的裝扮，就算刻意假扮都並非易事，更何況是一個路人。
+此時，安珍竟然念咒請求熊野神的幫助，用咒縛困住清姬的同時拔腿就跑。
+
+安珍這樣的行為更加激怒了清姬，但在咒縛中動彈不得的清姬卻只能看著安珍離去，咬牙切齒的清姬心中的恨意不斷地加深，憤怒的眼神更像是要噴出火來。
+憎恨、絕望、憤怒、傷心、痛苦，在瘋狂的巨大壓力之下，清姬頭上漸漸的長出了角，身體也逐漸化成了龍的樣子，心中的憤怒化為火焰由口中噴出。
+身體開始變化的清姬掙脫了咒縛，一邊噴著火焰追趕安珍。
+
+安珍來到一條名為日高川的河川旁邊，他跟船夫說自己正被妖怪追趕，並請求船夫載他過河，船夫看到後方噴著火的清姬也嚇壞了，二話不說載著安珍趕緊前往對岸的道成寺請求庇護。
+
+清姬來到河邊，船夫和安珍早已遠去，清姬只好自己跳入水中游過去。
+游著游著，從對岸現身時，清姬已經完全失去了人類的樣子，變成一條噴著火焰的龍。
+這時，安珍正請求道成寺的僧人用大殿中的巨大銅鐘將他蓋起來，好躲避清姬。
+
+追入寺中的龍雖然看不到人，但是憑著感覺確認到了安珍就躲在鐘裡。
+龍無法打開銅鐘，只好圍繞的銅鐘不斷打轉並一邊吐著熾熱的火焰。
+安珍不斷拍打鐘壁求救，但是整個大殿到處都是火焰，其他僧人早就逃走了，自然無人回應安珍的呼喊。
+最後，安珍終於被活活燒死在鐘裡。
+
+安珍死後，龍的眼中流下了兩行血淚，留下滿殿大火，獨自潛入日高川自殺了。
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45356557728236935" green="1" blue="0.82438304348641966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yQN-cX-fZh"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvk-rm-2D8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1965.5999999999999" y="1172.5637181409297"/>
+        </scene>
+        <!--天草四郎時貞-->
+        <scene sceneID="E2k-22-9Y2">
+            <objects>
+                <viewController title="天草四郎時貞" id="wYl-LH-E1v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PnP-pO-RiL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="800px-ShirouKotomine" translatesAutoresizingMaskIntoConstraints="NO" id="3Up-OB-7Dz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nf-T9-T2o">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">天草四郎，本名益田四郎時貞，後來改名天草時貞，是日本江戶時代九州島原之亂的領袖。
+自小聰穎過人，有神童之稱，且外表俊秀。
+於寬永十四年（1637年）率領三萬數千名（一說兩萬數千名）來自（長崎）和天草（熊本）的基督徒起義，佔領島原半島南部的原城，
+最終由於幕府軍圍城，糧食缺乏，義軍戰鬥力下降。寬永十五年（1638年）2月28日，幕府軍發動十餘萬軍隊對義軍發起總攻擊，因飢餓力衰，義軍大敗，原城陷落。天草四郎便在大火中被殺</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.6341587729627054" blue="0.65428369289567989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BdU-Ni-l58"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsx-ZO-mD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="-1185"/>
+        </scene>
+        <!--威廉・莎士比亞-->
+        <scene sceneID="hV6-ff-MER">
+            <objects>
+                <viewController title="威廉・莎士比亞" id="no3-eR-1jY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oDi-hp-hge">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="800px-62030720_p0" translatesAutoresizingMaskIntoConstraints="NO" id="KhI-hc-hGL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.38121268112661155" green="0.57185913705583757" blue="0.37936178418838373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-To-UN1">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">威廉·莎士比亞，華人社會常尊稱為莎翁，是英國文學史上最傑出的戲劇家，也是西方文藝史上最傑出的作家之一，全世界最卓越的文學家之一。[1]他流傳下來的作品包括38部戲劇、154首十四行詩、兩首長敘事詩和其他詩歌。他的戲劇有各種主要語言的譯本，且表演次數遠遠超過其他戲劇家的作品。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38121268110000001" green="0.57185913710000003" blue="0.3793617842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hnt-Em-Edo"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2c-9t-UFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1878" y="-1185"/>
+        </scene>
+        <!--夏爾・亨利・桑松-->
+        <scene sceneID="H5S-V3-f8d">
+            <objects>
+                <viewController title="夏爾・亨利・桑松" id="dnz-FQ-4SJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t0x-aE-feE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="桑松" translatesAutoresizingMaskIntoConstraints="NO" id="rsj-o3-Oup">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="夏爾·亨利·桑松是法國史上著名的劊子手。來自一個劊子手的家族，1688至1847年傳承六代，而夏爾·亨利為第四代。在夏爾·亨利領職40年處決了大約3,000人，其中包括路易十六。" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-20-F1a">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="tcS-YW-PhX"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QUJ-9h-chy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3538" y="-1185"/>
+        </scene>
+        <!--聖女貞德-->
+        <scene sceneID="E0i-4J-ef5">
+            <objects>
+                <viewController title="聖女貞德" id="9tf-Uf-Tuz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fO-7Q-u4L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貞德" translatesAutoresizingMaskIntoConstraints="NO" id="E1e-sP-hJz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jkc-rQ-20Z">
+                                <rect key="frame" x="0.0" y="189" width="375" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">聖女貞德，是法國的軍事家，天主教聖人，被法國人視為民族英雄。在英法百年戰爭（1337年－1453年）中她帶領法國軍隊對抗英軍的入侵，最後被捕並被處決。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68280032046017947" green="0.75123701871917592" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HKS-u2-maR"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9kS-RT-umh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2713" y="-1185"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="800px-62030720_p0" width="800" height="1026"/>
+        <image name="800px-ShirouKotomine" width="800" height="1326"/>
+        <image name="B叔" width="512" height="724"/>
+        <image name="archer" width="193" height="194"/>
+        <image name="assassin" width="194" height="197"/>
+        <image name="berserker" width="195" height="195"/>
+        <image name="caster" width="195" height="195"/>
+        <image name="giru" width="800" height="600"/>
+        <image name="lancer" width="198" height="195"/>
+        <image name="ruler" width="195" height="195"/>
+        <image name="庫胡林" width="512" height="724"/>
+        <image name="桑松" width="512" height="724"/>
+        <image name="清姬" width="512" height="724"/>
+        <image name="貞德" width="512" height="726"/>
+    </resources>
+</document>
