@@ -312,7 +312,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-kH-Jvu">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-kH-Jvu">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">出典：『希臘神話』
@@ -344,7 +344,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7KE-CR-g9O">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7KE-CR-g9O">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">出典：『凱爾特神話』  原名瑟坦特，七歲的時候康納爾王受邀到鐵匠庫林（Culann）家做客，他也一同前往，在去宴會路上，貪玩的瑟坦特不顧康納爾王的喚聲，他忙著和其他孩子比賽玩球，所以回答說等玩完了就過去。 然而康納爾王卻忘記告訴鐵匠庫林這件事，結果庫林在自己家的門前放出了看家犬。
@@ -375,7 +375,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-Lo-hy7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a4g-Lo-hy7">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">出典：『吉爾伽美什史詩』
@@ -406,7 +406,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-1C-CWR">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-1C-CWR">
                                 <rect key="frame" x="0.0" y="189" width="375" height="500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">出典：『清姬傳說』
@@ -504,7 +504,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nf-T9-T2o">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nf-T9-T2o">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">天草四郎，本名益田四郎時貞，後來改名天草時貞，是日本江戶時代九州島原之亂的領袖。
@@ -537,7 +537,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.38121268112661155" green="0.57185913705583757" blue="0.37936178418838373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-To-UN1">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-To-UN1">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">威廉·莎士比亞，華人社會常尊稱為莎翁，是英國文學史上最傑出的戲劇家，也是西方文藝史上最傑出的作家之一，全世界最卓越的文學家之一。[1]他流傳下來的作品包括38部戲劇、154首十四行詩、兩首長敘事詩和其他詩歌。他的戲劇有各種主要語言的譯本，且表演次數遠遠超過其他戲劇家的作品。
@@ -567,7 +567,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="夏爾·亨利·桑松是法國史上著名的劊子手。來自一個劊子手的家族，1688至1847年傳承六代，而夏爾·亨利為第四代。在夏爾·亨利領職40年處決了大約3,000人，其中包括路易十六。" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-20-F1a">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="夏爾·亨利·桑松是法國史上著名的劊子手。來自一個劊子手的家族，1688至1847年傳承六代，而夏爾·亨利為第四代。在夏爾·亨利領職40年處決了大約3,000人，其中包括路易十六。" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-20-F1a">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -597,7 +597,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jkc-rQ-20Z">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jkc-rQ-20Z">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">聖女貞德，是法國的軍事家，天主教聖人，被法國人視為民族英雄。在英法百年戰爭（1337年－1453年）中她帶領法國軍隊對抗英軍的入侵，最後被捕並被處決。
