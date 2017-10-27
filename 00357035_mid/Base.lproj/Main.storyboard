@@ -128,7 +128,7 @@
                             <outlet property="delegate" destination="oct-M6-8gi" id="uaa-9b-Mrx"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="史實" id="fl5-zE-Tsu"/>
+                    <tabBarItem key="tabBarItem" title="史實" image="write" id="fl5-zE-Tsu"/>
                     <navigationItem key="navigationItem" title="史實" id="rba-GU-lyl"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
@@ -291,7 +291,7 @@
                             <outlet property="delegate" destination="Y4e-6n-mYi" id="rCE-1i-v7W"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="傳說/神話" id="uh6-XN-CAc"/>
+                    <tabBarItem key="tabBarItem" title="傳說/神話" image="earth-usa" id="uh6-XN-CAc"/>
                     <navigationItem key="navigationItem" title="傳說/神話" id="kDD-dT-cxp">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="NFm-cz-p4i"/>
                     </navigationItem>
@@ -315,9 +315,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-kH-Jvu">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">出典：『希臘神話』
+                                <string key="text">出典：『希臘神話』
  海克力士一生充滿傳奇，最著名的無非是他的十二項英雄偉績。古希臘時代居住在亞歷山大港的詩人們用充滿詩意和悲劇氣氛的文字記錄了他的一生。他的形象起源是近東地區的鬥獅者，在伊特魯里亞文化中可以找到和他對應的人物赫丘勒（Hercle），兩位主神丁尼亞（Tinia，對應希臘神話的宙斯）和烏尼的兒子。
-赫拉克勒斯是古希臘時代克托尼俄斯的英雄中最偉大，但不同於其他的英雄，他同為英雄和神（即他死後成為神的事實），品達稱他為理論上的英雄，因此當古希臘祭祀他的時候會先向地府獻上美酒（以告慰他作為人類英雄之靈），然後再向聖壇獻上美酒（以祭祀他的神靈），當然他很多時候也被稱為「半神」。瓦爾特·伯科特已經證明赫拉克勒斯故事的核心內容起源於新石器時代的捕獵文化以及薩滿教傳入平民階層時產生的傳說。</mutableString>
+赫拉克勒斯是古希臘時代克托尼俄斯的英雄中最偉大，但不同於其他的英雄，他同為英雄和神（即他死後成為神的事實），品達稱他為理論上的英雄，因此當古希臘祭祀他的時候會先向地府獻上美酒（以告慰他作為人類英雄之靈），然後再向聖壇獻上美酒（以祭祀他的神靈），當然他很多時候也被稱為「半神」。瓦爾特·伯科特已經證明赫拉克勒斯故事的核心內容起源於新石器時代的捕獵文化以及薩滿教傳入平民階層時產生的傳說。</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -347,9 +347,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7KE-CR-g9O">
                                 <rect key="frame" x="0.0" y="189" width="375" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">出典：『凱爾特神話』  原名瑟坦特，七歲的時候康納爾王受邀到鐵匠庫林（Culann）家做客，他也一同前往，在去宴會路上，貪玩的瑟坦特不顧康納爾王的喚聲，他忙著和其他孩子比賽玩球，所以回答說等玩完了就過去。 然而康納爾王卻忘記告訴鐵匠庫林這件事，結果庫林在自己家的門前放出了看家犬。
+                                <string key="text">出典：『凱爾特神話』  原名瑟坦特，七歲的時候康納爾王受邀到鐵匠庫林（Culann）家做客，他也一同前往，在去宴會路上，貪玩的瑟坦特不顧康納爾王的喚聲，他忙著和其他孩子比賽玩球，所以回答說等玩完了就過去。 然而康納爾王卻忘記告訴鐵匠庫林這件事，結果庫林在自己家的門前放出了看家犬。
 對此毫不知情的瑟坦特一個人來到鐵匠家，結果被狗襲擊，但他卻反而徒手把狗給勒死了。這隻狗因為兇猛而出名，是鐵匠庫蘭自豪的愛犬。 看到鐵匠失去愛犬痛心的樣子瑟坦特深感內疚，所以他向庫林承諾，在鐵匠育成下一隻看家犬之前，他將守護這間房子。
-在國王的祭師凱斯巴(Cathba)的宣布下，他的名字成為庫胡林(Cú Chulainn)，其意為庫林的猛犬，立誓一生不得吃狗肉</mutableString>
+在國王的祭師凱斯巴(Cathba)的宣布下，他的名字成為庫胡林(Cú Chulainn)，其意為庫林的猛犬，立誓一生不得吃狗肉</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -409,7 +409,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-1C-CWR">
                                 <rect key="frame" x="0.0" y="189" width="375" height="500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">出典：『清姬傳說』
+                                <string key="text">出典：『清姬傳說』
 
 西元928年
 
@@ -478,7 +478,7 @@
 最後，安珍終於被活活燒死在鐘裡。
 
 安珍死後，龍的眼中流下了兩行血淚，留下滿殿大火，獨自潛入日高川自殺了。
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -624,9 +624,11 @@
         <image name="assassin" width="194" height="197"/>
         <image name="berserker" width="195" height="195"/>
         <image name="caster" width="195" height="195"/>
+        <image name="earth-usa" width="30" height="30"/>
         <image name="giru" width="800" height="600"/>
         <image name="lancer" width="198" height="195"/>
         <image name="ruler" width="195" height="195"/>
+        <image name="write" width="30" height="30"/>
         <image name="庫胡林" width="512" height="724"/>
         <image name="桑松" width="512" height="724"/>
         <image name="清姬" width="512" height="724"/>
